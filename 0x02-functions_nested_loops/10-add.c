@@ -6,7 +6,7 @@
  * @b: An integer b
  * Return: Always 0 (Success)
  */
-int add(int a, int b)
+int add(a, b)
 {
 	return (a + b);
 }
