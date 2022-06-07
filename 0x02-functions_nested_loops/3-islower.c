@@ -7,17 +7,14 @@
  */
 int _islower(int c)
 {
-	int alpha_lower;
+	int alpha_lower = 0;
 	char alpha;
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
-		if (c == alpha)
-		{
+	{
+		if (alpha == c)
 			alpha_lower = 1;
-		}
-		else
-		{
-			alpha_lower = 0;
-		}
+	}
+
 	return (alpha_lower);
 }
