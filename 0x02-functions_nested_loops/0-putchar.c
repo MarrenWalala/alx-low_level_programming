@@ -1,18 +1,18 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * main - Entry point
+ * main -Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char letters[7] = "_putchar";
+	char letter[8] = '_putchar';
 	int a;
 
-	for (a = 0; a <= 7; a++)
-		_putchar(letters[a]);
-	_putchar("\n");
+	for (letter = 0; letter <= 8; letter++)
+		_putchar(letter[i]);
+	_putchar('\n');
 
 	return (0);
 }
