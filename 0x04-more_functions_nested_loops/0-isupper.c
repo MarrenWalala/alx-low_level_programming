@@ -7,14 +7,17 @@
 int _isupper(int c)
 {
 	char alpha;
+	int digits = 0;
 
 	for (alpha = 'A'; alpha <= 'Z'; alpha++)
 		if (c == alpha)
 		{
-			return (1);
+			digits = 1;
 		}
 		else
 		{
-			return (0);
+			digits = 0;
 		}
+
+	return (digits)
 }
