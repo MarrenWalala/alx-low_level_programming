@@ -11,7 +11,7 @@ int _isdigit(int c)
 
 	for (; digits <= '9'; digits++)
 	{
-		if (c == digits)
+		if (digits == c)
 		{
 			isdigit = 1;
 			break;
