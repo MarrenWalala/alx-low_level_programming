@@ -20,5 +20,6 @@ int main(void)
 			printf("%d ", i);
 	}
 	printf("Buzz\n");
+
 	return (0);
 }
