@@ -1,23 +1,23 @@
 #include "main.h"
 /**
  * _isupper - Entry point
- *@c: An integer c
- * Return: Always 0 (Success)
+ *  @c: An input characte
+ *  Return: Always 0 (Succcess)
  */
 int _isupper(int c)
 {
-	char alpha;
-	int digits = 0;
+	char uppercase = 'A';
+	int isupper = 0;
 
-	for (alpha = 'A'; alpha <= 'Z'; alpha++)
-		if (c == alpha)
+	for (; uppercase <= 'Z'; uppercase++)
+	{
+		if (c == uppercase)
 		{
-			digits = 1;
+			isupper = 1;
+			break;
 		}
-		else
-		{
-			digits = 0;
-		}
+	}
 
-	return (digits)
+	return (isupper);
 }
+
