@@ -6,17 +6,17 @@
  */
 int _isdigit(int c)
 {
-	char digits = '0';
+	char i = '0';
 	int isdigit = 0;
 
-	for (; digits <= '9'; digits++)
+	for (; i <= '9'; i++)
 	{
-		if (digits == c)
+		if (i == c)
 		{
 			isdigit = 1;
 			break;
 		}
 	}
 
-	return (isdigit)
+	return (isdigit);
 }
