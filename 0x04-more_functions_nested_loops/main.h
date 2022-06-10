@@ -9,3 +9,4 @@ int main(void);
 void print_square(int size);
 int main(void);
 void more_numbers(void);
+void print_number(int n);
