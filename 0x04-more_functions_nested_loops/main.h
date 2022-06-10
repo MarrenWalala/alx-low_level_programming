@@ -10,3 +10,4 @@ void print_square(int size);
 int main(void);
 void more_numbers(void);
 void print_number(int n);
+void print_line(int n);
