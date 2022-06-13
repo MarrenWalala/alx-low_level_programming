@@ -9,10 +9,9 @@ void print_rev(char *s)
 	char str_rev = strrev(s);
 	int len = strlen(strrev);
 
-	while (str_rev[len] != '\0')
+	while (str_rev[len] != '\0'; len >= 0; len--)
 	{
 		_putchar(str_rev[len]);
-		len--;
 	}
 	_putchar('\n');
 }
