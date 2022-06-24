@@ -1,1 +1,1 @@
-static libraries
+C functions and more loops
