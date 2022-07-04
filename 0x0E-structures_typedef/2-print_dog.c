@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * struct dog - Entry point
+ * print_dog - Entry point
+ * struct dog - structure for a basic dog
  * @d: An instance of struct dog
  *
- * Return: Always 0.
+ * Description: data structure for a dog
  */
 void print_dog(struct dog *d)
 {
