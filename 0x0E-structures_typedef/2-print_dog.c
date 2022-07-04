@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_dog - Entry point
+ * struct dog - Entry point
  * @d: An instance of struct dog
  *
  * Return: Always 0.
